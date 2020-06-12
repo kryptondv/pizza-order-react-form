@@ -1,0 +1,22 @@
+
+.special-instructions {
+  resize: none;
+  border-color: #E5E5E5;
+  height: 4rem;
+  width: 100%;
+  outline: none;
+  font-family: 'Reem Kufi', sans-serif;
+  
+}
+
+@media (min-width: 410px) {
+  .special-instructions{
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .special-instructions {
+    font-size: 1.1rem;
+  }
+}

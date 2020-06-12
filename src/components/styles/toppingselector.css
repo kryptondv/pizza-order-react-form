@@ -1,0 +1,29 @@
+
+
+
+.topping-selector select{
+  border-color: #E5E5E5;
+  border-radius: 5px;
+  padding: 0.1rem;
+}
+
+.topping-selector select,
+.topping-selector optgroup{
+  font-size: 0.7rem;
+  font-family: 'Reem Kufi', sans-serif;
+  outline: none;
+}
+
+@media (min-width: 410px) {
+  .topping-selector select,
+  .topping-selector optgroup{
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .topping-selector select,
+  .topping-selector optgroup {
+    font-size: 1.1rem;
+  }
+}

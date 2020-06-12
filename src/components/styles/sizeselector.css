@@ -1,0 +1,26 @@
+
+
+.size-radio {
+    height: 0.5rem;
+}
+
+.size-radio-label {
+  font-size: 0.65rem;
+  margin-right: 0.5rem;
+  margin-left: 0.1rem;
+}
+
+@media (min-width: 410px) {
+  .size-radio-label {
+    font-size: 0.8rem;
+    margin-right: 0.6rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .size-radio-label {
+    font-size: 1.1rem;
+    margin-right: 1.5rem;
+  }
+}

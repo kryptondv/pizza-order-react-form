@@ -1,0 +1,28 @@
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+
+@media (min-width: 360px) {
+
+  .header {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 410px) {
+
+  .header {
+    font-size: 1.9rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    font-size: 3rem;
+  }
+}

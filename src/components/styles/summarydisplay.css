@@ -1,0 +1,32 @@
+.summary {
+  height: 6rem;
+  padding-top: 0.1rem;
+  overflow: auto;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+
+.summary-details {
+  font-size: 0.7rem;
+}
+
+.summary.order-confirmed .summary-details{
+  color: #88CA34;
+
+}
+
+@media (min-width: 410px) {
+  .summary-details {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .summary {
+    height: 8rem;
+  }
+
+  .summary-details {
+    font-size: 1.1rem;
+  }
+}
