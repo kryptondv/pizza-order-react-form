@@ -1,2 +1,2 @@
-A simple responsive pizza order form created with React.
-Live demo at: https://pizza-order-react-form.netlify.app/
+A simple responsive pizza order form with live prices and order summary udpates and "send order" button animation.
+Created with React.
